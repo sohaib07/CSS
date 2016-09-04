@@ -1,0 +1,26 @@
+h1,h2,h3{
+	color: #00BFFF;
+}
+body{
+	font-size: 14px;
+	line-height: 14px;
+	font-family: Times,Georgia,serif;
+}
+h2{
+	background-color: #CCD1D1;
+}
+.Price{
+	font-size: 20px;
+	font-weight: bold;
+}
+.red
+{
+	font-size: 14px;
+	color: red;
+}
+#space{
+	line-height: 1px;
+}
+p.indent{
+	text-indent: 25px;
+}
