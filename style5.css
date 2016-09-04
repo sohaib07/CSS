@@ -1,0 +1,29 @@
+fieldset{
+	color: black
+	background-color: white;
+	border: 1px solid grey;
+	padding: 20px;
+	width: 350px;
+
+}
+label{
+	line-height: 30px;
+
+}
+input,select{
+	border-radius:6px; 
+	background-color: #f2f2f2;
+	height: 20px;
+	margin-left: 100px;
+}
+#check{
+	margin-left: 118px;
+	height: 24px;
+}
+.radio{
+	margin-left: 44px;
+}
+button{
+	margin-top: 5px;
+	margin-left: 260px;
+}

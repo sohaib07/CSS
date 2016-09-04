@@ -1,22 +1,29 @@
-h1{
-	color: red;
-	text-indent: 400px;
-	font-size: 50px;
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	
 }
-h3#blue{
-	font-size: 18px;
-	color: blue;
-	text-indent: 300px;
-}
-h2{
-	color: red;
-	font-weight: bold;
-	text-decoration:underline;
-}
-.heading{
+tr.head{
+	text-transform: uppercase;
 	color: white;
-	background-color: #BCB4B2;
+	background-color: #84B3E3;
+	padding: 8px;
 }
-.indent{
-	text-indent: 50px;
+tr.data{
+	background-color: #DAE5F0;
+	color: black;
+	text-transform: capitalize;
+}
+th,td{
+	padding: 10px 10px 10px 10px;
+	letter-spacing: 0.05em;
+}
+h1,h2{
+	color: grey;
+}
+tr.data1{
+	background-color: #DAE5F0;
+	color: black;
+	text-transform: capitalize;
+	border-bottom: none;
 }

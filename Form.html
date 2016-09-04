@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form CSS</title>
+</head>
+<body>
+<form>
+	<fieldset id="Step1">
+		<legend>Step 1: Your details</legend>
+		<label class="details">Name:<input type="userame" name="username" placeholder="Enter Your Name Here"></label><br/>
+		<label class="details">Email:<input type="email" name="email" placeholder="example@domain.com"></label><br/>
+		<label class="details">Phone:<input type="text" name="phone" placeholder="+9230092614092"></label><br/>
+	</fieldset>
+	<fieldset id="Step2">
+		<legend>Step 2: Delivery Address</legend>
+		<label><span>Address:</span><textarea name="address" cols="23" rows="5"></textarea></label><br/>
+		<label>Postcode: <input type="text" name="postcode"></label><br/>
+		<label>Country:<input type="text" name="country"></label><br/>
+	</fieldset>
+	<fieldset id="Step3">
+	<legend>Step 3: Card details</legend>
+	<div>
+	<fieldset>
+	<legend >Card Type:</legend><input type="radio" name="Card_type"  value="Visa"><input type="image" name="" src="D:\UBIT\Web Development\CSS\Lists,Tables,Forms(14)\visa.jpg" height="10" width="10">
+	<input type="radio" name="Card_type" value="AEm"><input type="image" name="" src="D:\UBIT\Web Development\CSS\Lists,Tables,Forms(14)\am2.jpg" width="10" height="10">
+	<input type="radio" name="Card_type" value="Mastercard"><input type="image" name="Card_type" src="D:\UBIT\Web Development\CSS\Lists,Tables,Forms(14)\Mc.png" width="10" height="10">
+	<br/></fieldset></div>
+	<label>Card Number:<input type="text" name="card number"></label><br/>
+	<label>Security Code:<input type="password" name="securitycode"></label><br/>
+	<label>Name on the card:<input type="text" name="Name" placeholder="Name as on the card"></label><br/>
+	<input type="submit" name="Buy It!" value="Buy It!" id="button">
+	</fieldset>
+</form>
+</body>
+</html>
