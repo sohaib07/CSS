@@ -1,0 +1,18 @@
+body{
+	background-color: #c1c8cd;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+#label{
+	background-color: white;
+}
+#bc{
+	background-color: #9f9a99;
+	line-height: 20px;
+}
+.so{
+	color: #6c80cb;
+}
+.sm{
+	color: red;
+}
