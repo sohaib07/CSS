@@ -1,0 +1,22 @@
+h1{
+	color: red;
+	text-indent: 400px;
+	font-size: 50px;
+}
+h3#blue{
+	font-size: 18px;
+	color: blue;
+	text-indent: 300px;
+}
+h2{
+	color: red;
+	font-weight: bold;
+	text-decoration:underline;
+}
+.heading{
+	color: white;
+	background-color: #BCB4B2;
+}
+.indent{
+	text-indent: 50px;
+}
